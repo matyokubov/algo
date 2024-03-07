@@ -1,0 +1,5 @@
+n = int(input())
+nums = list(map(int, input().split()))
+m = int(input())
+res = sum([i**2 if i<m else 0 for i in nums])
+print(res)
